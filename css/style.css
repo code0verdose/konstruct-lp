@@ -405,10 +405,19 @@ template {
   align-items: center;
 }
 
+.nav__bar {
+  border-bottom: 1px solid #E6E6E6;
+}
+
 .nav__logo {
   width: 80px;
   height: 100%;
   display: block;
+}
+
+.nav__logo-container {
+  display: flex;
+  align-items: center;
 }
 
 .nav__list {
@@ -432,5 +441,9 @@ template {
 
 .nav__link:hover {
   color: #00A4E5;
+}
+
+.story {
+  padding-top: 57px;
 }
 /*# sourceMappingURL=style.css.map */

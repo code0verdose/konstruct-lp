@@ -16,7 +16,9 @@
   <body>
     <header>
       <div class="hero">
-        <img src="img/Logo.svg" alt="Logo - Picture" class="hero__logo" />
+        <div class="hero__logo-container">
+          <img src="img/Logo.svg" alt="Logo - Picture" class="hero__logo" />
+        </div>
         <h1 class="hero__title">PARTNER WITH KONSTUCT</h1>
         <p class="hero__subtitle">
           An award-winning construction management firm
@@ -24,14 +26,16 @@
         <p class="hero__scroll">SCROLL DOWN</p>
       </div>
     </header>
-    <nav>
+    <nav class="nav__bar">
       <div class="container">
         <div class="nav">
-          <img
-            src="img/black-logo.svg"
-            alt="Logo - Picture"
-            class="nav__logo"
-          />
+          <div class="nav__logo-container">
+            <img
+              src="img/black-logo.svg"
+              alt="Logo - Picture"
+              class="nav__logo"
+            />
+          </div>
           <ul class="nav__list">
             <li>
               <a href="#" class="nav__link">HOME</a>
@@ -54,5 +58,8 @@
       </div>
       <!-- /.container -->
     </nav>
+    <main>
+      <section class="story"></section>
+    </main>
   </body>
 </html>
