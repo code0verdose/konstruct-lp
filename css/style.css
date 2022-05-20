@@ -6,6 +6,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
+  color: #48555B;
 }
 
 .container {
@@ -519,5 +520,120 @@ template {
 
 .images__wrap:last-child {
   margin-right: 0;
+}
+
+.capabilities {
+  padding-bottom: 115px;
+}
+
+.capabilities__title-container {
+  display: flex;
+  margin-bottom: 76px;
+}
+
+.capabilities__line {
+  border-bottom: 2px solid #00A4E5;
+  width: 50px;
+}
+
+.capabilities__title {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  letter-spacing: 2.30625px;
+  white-space: nowrap;
+}
+
+.capabilities__text {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+}
+
+.capabilities__link {
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  padding: 11px 29px 11px 29px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #00A4E5;
+  margin-left: 35px;
+}
+
+.capabilities__link:hover {
+  background-color: #007fb2;
+}
+
+.title__wrapper {
+  margin-right: 155px;
+}
+
+.cards__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards__content {
+  border: 1px solid #E6E6E6;
+  padding: 38px 22px 38px 22px;
+  display: block;
+}
+
+.cards__picture {
+  display: block;
+  height: 75px;
+  width: auto;
+}
+
+.cards__title {
+  margin-top: 25px;
+  margin-bottom: 13px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.426667px;
+  max-width: 250px;
+}
+
+.cards__text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  max-width: 250px;
+}
+
+.get {
+  background-image: url("../img/footer-bg.png");
+  background-size: 100%;
+  width: 100%;
+  height: 500px;
+  padding-top: 120px;
+}
+
+.get__wrapper {
+  text-align: center;
+}
+
+.get__title {
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  margin-bottom: 46px;
+}
+
+.get__link {
+  background-color: #00A4E5;
+  text-decoration: none;
+  padding: 11px 26px;
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+}
+
+.get__link:hover {
+  background-color: #007fb2;
 }
 /*# sourceMappingURL=style.css.map */
