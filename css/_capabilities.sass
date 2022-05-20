@@ -18,6 +18,7 @@
     line-height: 19px
     letter-spacing: 0.2px
   &__link
+    display: inline-block
     font-size: 13px
     line-height: 18px
     letter-spacing: 0.5px
@@ -58,3 +59,46 @@
     font-size: 13px
     line-height: 23px
     max-width: 250px
+
+
+@media (max-width: 1024px)
+  .capabilities
+    &__container
+      display: flex
+      flex-direction: column
+      align-items: center
+    &__title-container
+      display: block
+      text-align: center
+      max-width: 50%
+    &__line
+      margin: auto
+    &__text
+      margin-bottom: 30px
+      text-align: center
+      margin-bottom: 85px
+      
+  .cards
+    &__content
+      max-width: 30%
+    &__container
+      max-width: 90%
+      margin: auto
+  .story
+    &__content
+      display: block
+
+  .text
+    text-align: center
+    margin: auto
+    max-width: 90%
+    margin-bottom: 76px
+  .images
+    justify-content: center
+
+  .title
+    &__wrapper
+      margin-bottom: 85px
+      margin-right: 0
+
+      

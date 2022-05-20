@@ -15,6 +15,12 @@ body {
   margin: auto;
 }
 
+@media (max-width: 1024px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -562,6 +568,7 @@ template {
 }
 
 .capabilities__link {
+  display: inline-block;
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 0.5px;
@@ -613,6 +620,50 @@ template {
   font-size: 13px;
   line-height: 23px;
   max-width: 250px;
+}
+
+@media (max-width: 1024px) {
+  .capabilities__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .capabilities__title-container {
+    display: block;
+    text-align: center;
+    max-width: 50%;
+  }
+  .capabilities__line {
+    margin: auto;
+  }
+  .capabilities__text {
+    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 85px;
+  }
+  .cards__content {
+    max-width: 30%;
+  }
+  .cards__container {
+    max-width: 90%;
+    margin: auto;
+  }
+  .story__content {
+    display: block;
+  }
+  .text {
+    text-align: center;
+    margin: auto;
+    max-width: 90%;
+    margin-bottom: 76px;
+  }
+  .images {
+    justify-content: center;
+  }
+  .title__wrapper {
+    margin-bottom: 85px;
+    margin-right: 0;
+  }
 }
 
 .get {
@@ -707,11 +758,5 @@ footer {
   color: #FFFFFF;
   display: flex;
   justify-content: center;
-}
-
-@media (max-width: 1024px) {
-  .container {
-    max-width: 90%;
-  }
 }
 /*# sourceMappingURL=style.css.map */
