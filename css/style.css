@@ -415,6 +415,10 @@ template {
 
 .nav__bar {
   border-bottom: 1px solid #E6E6E6;
+  position: sticky;
+  background-color: #FFFFFF;
+  top: 0;
+  z-index: 4;
 }
 
 .nav__logo {
