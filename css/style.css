@@ -359,17 +359,22 @@ template {
   text-align: center;
   align-items: center;
   flex-direction: column;
-  background-image: url("../img/Hero-bg.png");
-  background-size: 100%;
-  width: 100%;
-  height: 770px;
+  background: url("../img/Hero-bg.png") center no-repeat;
+  background-size: cover;
   padding-top: 40px;
   padding-bottom: 70px;
 }
 
 .hero__logo {
   width: 102px;
+  height: 100%;
   display: block;
+}
+
+.hero__logo-container {
+  text-align: center;
+  max-width: 103px;
+  margin: 0 auto;
 }
 
 .hero__title {
@@ -378,8 +383,8 @@ template {
   font-weight: 400;
   font-size: 60px;
   line-height: 72px;
-  margin-top: 310px;
-  margin-bottom: 20px;
+  margin-top: 305px;
+  margin-bottom: 0;
   letter-spacing: 5.70937px;
   color: #FFFFFF;
 }
@@ -388,6 +393,7 @@ template {
   font-size: 16px;
   line-height: 22px;
   color: #FFFFFF;
+  margin-bottom: 221px;
 }
 
 .hero__scroll {
@@ -443,6 +449,7 @@ template {
 
 .nav__link:hover {
   color: #00A4E5;
+  transition: 0.2s;
 }
 
 .story {
@@ -566,6 +573,7 @@ template {
 
 .capabilities__link:hover {
   background-color: #007fb2;
+  transition: 0.2s;
 }
 
 .title__wrapper {
@@ -606,11 +614,10 @@ template {
 }
 
 .get {
-  background-image: url("../img/footer-bg.png");
-  background-size: 100%;
-  width: 100%;
-  height: 500px;
+  background: url("../img/footer-bg.png") center no-repeat;
+  background-size: cover;
   padding-top: 120px;
+  padding-bottom: 242px;
 }
 
 .get__wrapper {
@@ -636,6 +643,7 @@ template {
 
 .get__link:hover {
   background-color: #007fb2;
+  transition: 0.2s;
 }
 
 footer {
@@ -686,6 +694,7 @@ footer {
 
 .newsletter__btn:hover {
   background-color: #007fb2;
+  transition: 0.2s;
 }
 
 .copyright {
